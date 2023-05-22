@@ -8,8 +8,14 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Set your OpenAI API key
+
+```shell
+echo OPENAI_API_KEY=sk-*********************** > .env
+```
+
 ## Run
 
 ```shell
-gradio app.py
+python app.py
 ```
